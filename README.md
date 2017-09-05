@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-#portaloflimin
-利民门户网站开发代码管理++
-=======
-Yii 2 Basic Project Template
-============================
-
+利民门户网站开发代码管理
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
@@ -210,4 +204,3 @@ vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
->>>>>>> dev
