@@ -1,0 +1,178 @@
+/** public style **/
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+.block{
+	display: block;
+}
+
+/** public style end **/
+.main_content{
+	width: 80%;
+	margin: 0 auto;
+}
+.content_top{
+	overflow: hidden;
+	margin-top: 34px;
+	border-bottom: 1px solid #D8D8D8;
+}
+.content_top p:nth-child(1){
+	border-bottom: 3px solid #4C96E9;
+	font-weight: bold;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #000000;
+	padding-bottom: 8px;
+	margin-left: 5px;
+}
+.content_top>span{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	line-height: 44px;
+}
+.content_top .location{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #999999;
+	margin-right: 7px;
+	line-height: 44px;
+}
+.content_top .location a{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #999999;
+	margin-right: 7px;
+	line-height: 44px;
+}
+.content_top .location span{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #4C96E9;
+	line-height: 22px;
+}
+.content_top p>img{
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+    margin-bottom: -4px;
+}
+.content_middle{
+	overflow: hidden;
+}
+.content_left{
+	float: left;
+	width: 15%;
+	margin-right: 5%;
+	margin-top: 30px;
+}
+.nav_list span{
+	text-align: center;
+	line-height: 50px;
+	display: block;
+	height: 50px;
+	background-image: linear-gradient(-180deg, #1EB6EC 0%, #0055B6 100%);
+	border-radius: 0 6px 0 0;
+	font-family: PingFang-SC-Medium;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.nav_list li{
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #D6D7DC;
+	border-top: none;
+}
+.nav_list li a{
+	color: #999999;
+}
+.nav_list .selected a{
+	color: #006CCA;
+}
+
+
+.content_right{
+	width: 80%;
+	margin-top: 30px;
+	float: left;
+}
+.content_page{
+	width: 100%;
+	text-align: center;
+}
+input{
+	font-size: 16px;
+	padding-left: 5px !important;
+}
+textarea{
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/** before is the summary css **/
+.user_detial{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.table{
+	padding-bottom: 90px;
+}
+.table table{
+	width: 100%;
+}
+.table tr{
+	height: 40px;
+    font-size: 14px;
+}
+.table tr:nth-child(odd) {
+    background: #f8f8f8;
+}
+.content_page .img{
+	float: left;
+	width: 152px;
+	height: 152px;
+	background: blue;
+	float: left;
+}
+.content_page .detial{
+	padding-top: 10px;
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0;
+}
+.content_page span{
+	display: inline-block;
+	padding: 5px 0 5px 10px;
+	font-size: 16px;
+    color: #333;
+}
+.form{
+	border-top: 1px solid #D6D7DC;
+	width: 100%;
+	padding: 20px 0;
+	text-align: left;
+}
+.form input{
+	width: 20%;
+	height: 30px;
+}
+.form .search{
+	border: none;
+	width: 85px;
+	height: 30px;
+	background: linear-gradient(-180deg, #E0C715 0%, #C99701 100%);
+	border-radius: 2px;
+	color: #FFF;
+}
+.empty{
+	width: 100;
+	height: 200px;
+	line-height: 200px;
+	background: #FFF;
+}

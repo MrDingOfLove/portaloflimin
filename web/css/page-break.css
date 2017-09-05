@@ -1,0 +1,20 @@
+.page-break ul{
+	margin-top: 25px;
+	float: right;
+}
+.page-break li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #E7E7E7;
+	color: #FFF;
+	margin: 0 2px;
+	text-align: center;
+}
+.page-break li a{
+	color: #FFF;
+}
+.page-break .active{
+	background: #4C96E9;
+}

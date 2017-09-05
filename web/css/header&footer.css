@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfloat{
+	clear: both;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.animation{
+	transition: all .5s;
+	-moz-transition: all .5s; /* Firefox 4 */
+	-webkit-transition: all .5s; /* Safari 和 Chrome */
+	-o-transition: all .5s; /* Opera */
+}
+body{
+	font-family: PingFangSC-Regular;
+}
+.content{
+	min-width: 1300px;
+}
